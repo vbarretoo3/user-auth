@@ -51,12 +51,12 @@ export default function Signup() {
                         </Form.Group>
                         <br/>
                         <Button disable={loading} className='w-100' type='submit'>Sign Up</Button>
+                        <div className='w-100 text-center mt-2'>
+                            Already have an account? <Link to='/login'>Log In</Link>
+                        </div>
                     </Form>
                 </Card.Body>
             </Card>
-            <div className='w-100 text-center mt-2'>
-                Already have an account? <Link to='/login'>Log In</Link>
-            </div>
         </>
   )
 }

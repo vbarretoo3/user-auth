@@ -1,0 +1,15 @@
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+    "left-column body"
+}
+
+#left-column {
+    grid-area: left-column;
+}
+
+#body {
+    grid-area: body;
+}

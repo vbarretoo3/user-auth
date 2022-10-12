@@ -42,12 +42,12 @@ export default function ForgotPassword() {
                         <div className='w-100 text-center mt-3'>
                             <Link to='/login'>Log In</Link>
                         </div>
+                        <div className='w-100 text-center mt-2'>
+                            Need an account? <Link to='/signup'>Sign Up</Link>
+                        </div>
                     </Form>
                 </Card.Body>
             </Card>
-            <div className='w-100 text-center mt-2'>
-                Need an account? <Link to='/signup'>Sign Up</Link>
-            </div>
         </>
   )
 }
